@@ -24,19 +24,19 @@ document.addEventListener("DOMContentLoaded", function () {
      * Sets a cookie.
      * @param {string} name - The name of the cookie.
      * @param {string} value - The value of the cookie.
-     * @param {number} days - The number of days to store the cookie.
+     * @param {number} day - The number of day to store the cookie.
      */
-    function setCookies(name, value, days)
+    function setCookies(name, value, day)
     {
         let expires = "";
 
         // Set up date
-        if (days)
+        if (day)
         {
             const date = new Date();
 
             // Sets the time in milliseconds
-            date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+            date.setTime(date.getTime() + day * 24 * 60 * 60 * 1000);
             expires = "; expires=" + date.toUTCString();
         }
 
