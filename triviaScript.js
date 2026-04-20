@@ -156,7 +156,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         else
         {
-            alert("Enter a valid name");
+            alert("Enter a valid name!");
         }
     }
 

@@ -1,7 +1,7 @@
 /*A function thats called upon when loaded*/
 function load(){
     /*Shows this log upon loading and adds listeners to the buttons*/
-    console.log("Form loaded.")
+    console.log("Form loaded!")
     document.getElementById("submit").addEventListener("click", submitForm);
     document.getElementById("reset").addEventListener("click", resetForm);
 }

@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         else
         {
-            alert("Please enter a name.");
+            alert("Please enter a name!");
         }
 
         updateDisplay();
