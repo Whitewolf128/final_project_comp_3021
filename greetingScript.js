@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (name)
         {
-            setCookies("username", name, 7);
+            setCookies("username", name, 6);
         }
         else
         {
